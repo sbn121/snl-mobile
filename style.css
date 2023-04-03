@@ -121,3 +121,31 @@ body {
         letter-spacing: -1px;
     }
 }
+@media screen and (max-width: 390px){
+    #model {
+        width: 350px;
+        left: 50%; /*왼쪽 위치: 화면의 중앙*/
+        margin-left: -160px; /*왼쪽 여백 : 사진의 1/2 더 왼쪽으로*/
+    }
+    #model img {
+        width: 100%;
+    }
+    .menu a{
+        font-size: 16px; 
+        letter-spacing: -2px; /*자간 : 글자간격 좁게 */
+    }
+    .sub-menu a{
+        font-size: 14px;
+        letter-spacing: -2px;
+    }
+    .price, .casting{
+        width: 85.0%; 
+    }
+    .price th, .casting th {
+        width: 25%;
+    }
+    .price th, .price td, .casting th, .casting td{
+        font-size: 16px;
+        letter-spacing: -2px;
+    }
+}
